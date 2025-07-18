@@ -1,12 +1,30 @@
-# React + Vite
+ShopifyGlobe:
+A responsive e-commerce product listing application built with React, Redux, and React Router. Features include filtering, product details, a shopping cart, and optimized performance using lazy loading and code splitting.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
+    🔍 Product filtering (desktop & mobile views)
+    🛒 Add to cart functionality
+    📄 Product detail pages
+    ⚡ Code splitting with React.lazy and Suspense
+    📱 Responsive design
+    📦 State management with Redux
+    ❌ 404 Error page with navigation
+    🌐 Client-side routing with React Router
 
-Currently, two official plugins are available:
+Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ - React
+ - Redux
+ - React Router DOM
+ - Tailwind CSS
+ - JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+ git clone https://github.com/mohitbisht007/ShopifyGlobe
+ cd ShopifyGlobe
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ npm install
+ npm start
+
+ 
+Author:
+Made with ❤️ by ohit Singh Bisht

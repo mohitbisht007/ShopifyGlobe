@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ProductItems({ items, addItemsCart, removeItemsCart, quantityInCart }) {
 
   return (
-    <div clssName="w-full bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200 hover:shadow-xl transition duration-300">
+    <div className="w-full bg-white shadow-lg rounded-xl overflow-hidden border border-gray-200 hover:shadow-xl transition duration-300">
       <Link to={`/product/${items.id}`}><img
         src={items.thumbnail}
         alt={items.title}
@@ -24,7 +24,7 @@ function ProductItems({ items, addItemsCart, removeItemsCart, quantityInCart }) 
         <div className="flex justify-between items-center text-sm mt-2">
           <span className="text-indigo-600 font-semibold">${items.price}</span>
           <span className="text-yellow-500 font-medium">
-            <i class="fa-solid fa-star"></i> {items.rating}
+            <i className="fa-solid fa-star"></i> {items.rating}
           </span>
         </div>
 

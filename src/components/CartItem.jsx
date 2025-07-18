@@ -32,7 +32,7 @@ function CartItems({ id, quantity }) {
           <button className="mt-3 w-[40px] bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-medium py-2 rounded-md transition duration-200"
             onClick={() => dispatch(addItems({id: item.id, price: item.price}))}
           >+</button>
-          <button className="text-[25px] cursor-pointer" onClick={() => dispatch(removeItem(item.id))} ><i class="fa-solid fa-trash"></i></button>
+          <button className="text-[25px] cursor-pointer" onClick={() => dispatch(removeItem(item.id))} ><i className="fa-solid fa-trash"></i></button>
         </div>
         <p className="text-amber-700 font-bold text-center mt-2">Total: ${item.price * quantity} </p>
 

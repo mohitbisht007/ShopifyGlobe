@@ -48,7 +48,7 @@ function ProductDetails() {
             onClick={() => setImage(image - 1)}
             className="text-[30px] cursor-pointer"
           >
-            <i class="fa-solid fa-chevron-left"></i>
+            <i className="fa-solid fa-chevron-left"></i>
           </button>
         )}
         <img
@@ -61,7 +61,7 @@ function ProductDetails() {
             onClick={() => setImage(image + 1)}
             className="text-[30px] cursor-pointer"
           >
-            <i class="fa-solid fa-chevron-right"></i>
+            <i className="fa-solid fa-chevron-right"></i>
           </button>
         )}
       </div>
@@ -73,7 +73,7 @@ function ProductDetails() {
           }`}
         >
           {item.rating}
-          <i class="fa-regular fa-star"></i>
+          <i className="fa-regular fa-star"></i>
         </span>
         <span className="text-[16px] text-lime-700">
           {item.reviews.length} Reviews
