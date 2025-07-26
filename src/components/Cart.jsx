@@ -5,7 +5,7 @@ import { clearCart } from "../redux/cartSlice";
 
 function Cart() {
   //cart from redux store
-  const cart = useSelector((state) => state.cart.cart);
+  const cart = useSelector((state) => state.cart.cart || []);
   const subtotal = Number(
     cart.reduce((acc, curr) => acc + curr.price * curr.quantity, 0)
   );

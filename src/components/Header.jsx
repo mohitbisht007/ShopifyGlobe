@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
 function Header() {
-  const cart = useSelector((state) => state.cart.cart);
+  const cart = useSelector((state) => state.cart.cart || []);
 
   return (
     <nav className="h-[80px] bg-blue-600 flex items-center justify-between px-4 text-white shadow-md">
